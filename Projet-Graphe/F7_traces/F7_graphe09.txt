@@ -1,0 +1,149 @@
+Choisisez un graph pour le lire, tapez 'end' pour finir l'execution:
+0 	--->  graphe02.txt
+1 	--->  graphe12.txt
+2 	--->  graphe07.txt
+3 	--->  graphe10.txt
+4 	--->  graphe03.txt
+5 	--->  graphe04.txt
+6 	--->  graphe08.txt
+7 	--->  graphe06.txt
+8 	--->  graphe01.txt
+9 	--->  graphe09.txt
+10 	--->  graphe13.txt
+11 	--->  graphe11.txt
+12 	--->  graphe05.txt
+end	--->  exit()
+choix: 9
+Lecture du fichier 'F7_graphes/graphe09.txt'
+
+===================================================================
+Matrice d'adjacence du graphe
+   	0  	1  	2  	3  	4  
+0  	0  	1  	2  	1  	inf
+1  	inf	0  	inf	inf	inf
+2  	inf	inf	0  	-2 	1  
+3  	inf	inf	inf	0  	4  
+4  	inf	3  	inf	inf	0  
+===================================================================
+
+iteration : 0
+
+===================================================================
+matrice P
+    	0   	1   	2   	3   	4   
+0   	0   	0   	0   	0   	Null
+1   	Null	1   	Null	Null	Null
+2   	Null	Null	2   	2   	2   
+3   	Null	Null	Null	3   	3   
+4   	Null	4   	Null	Null	4   
+===================================================================
+
+
+===================================================================
+matrice L
+   	0  	1  	2  	3  	4  
+0  	0  	1  	2  	1  	inf
+1  	inf	0  	inf	inf	inf
+2  	inf	inf	0  	-2 	1  
+3  	inf	inf	inf	0  	4  
+4  	inf	3  	inf	inf	0  
+===================================================================
+
+iteration : 1
+
+===================================================================
+matrice P
+    	0   	1   	2   	3   	4   
+0   	0   	0   	0   	0   	Null
+1   	Null	1   	Null	Null	Null
+2   	Null	Null	2   	2   	2   
+3   	Null	Null	Null	3   	3   
+4   	Null	4   	Null	Null	4   
+===================================================================
+
+
+===================================================================
+matrice L
+   	0  	1  	2  	3  	4  
+0  	0  	1  	2  	1  	inf
+1  	inf	0  	inf	inf	inf
+2  	inf	inf	0  	-2 	1  
+3  	inf	inf	inf	0  	4  
+4  	inf	3  	inf	inf	0  
+===================================================================
+
+iteration : 2
+
+===================================================================
+matrice P
+    	0   	1   	2   	3   	4   
+0   	0   	0   	0   	2   	2   
+1   	Null	1   	Null	Null	Null
+2   	Null	Null	2   	2   	2   
+3   	Null	Null	Null	3   	3   
+4   	Null	4   	Null	Null	4   
+===================================================================
+
+
+===================================================================
+matrice L
+   	0  	1  	2  	3  	4  
+0  	0  	1  	2  	0  	3  
+1  	inf	0  	inf	inf	inf
+2  	inf	inf	0  	-2 	1  
+3  	inf	inf	inf	0  	4  
+4  	inf	3  	inf	inf	0  
+===================================================================
+
+iteration : 3
+
+===================================================================
+matrice P
+    	0   	1   	2   	3   	4   
+0   	0   	0   	0   	2   	2   
+1   	Null	1   	Null	Null	Null
+2   	Null	Null	2   	2   	2   
+3   	Null	Null	Null	3   	3   
+4   	Null	4   	Null	Null	4   
+===================================================================
+
+
+===================================================================
+matrice L
+   	0  	1  	2  	3  	4  
+0  	0  	1  	2  	0  	3  
+1  	inf	0  	inf	inf	inf
+2  	inf	inf	0  	-2 	1  
+3  	inf	inf	inf	0  	4  
+4  	inf	3  	inf	inf	0  
+===================================================================
+
+iteration : 4
+
+===================================================================
+matrice P
+    	0   	1   	2   	3   	4   
+0   	0   	0   	0   	2   	2   
+1   	Null	1   	Null	Null	Null
+2   	Null	4   	2   	2   	2   
+3   	Null	4   	Null	3   	3   
+4   	Null	4   	Null	Null	4   
+===================================================================
+
+
+===================================================================
+matrice L
+   	0  	1  	2  	3  	4  
+0  	0  	1  	2  	0  	3  
+1  	inf	0  	inf	inf	inf
+2  	inf	4  	0  	-2 	1  
+3  	inf	7  	inf	0  	4  
+4  	inf	3  	inf	inf	0  
+===================================================================
+
+===================================================================
+Le graph ne contient pas des circuits abosrbants, l'affichage des chemins est possible
+===================================================================
+
+Tapez le sommet de depart, tapez 'sortir' pour finir l'affichage des chemins et passer a un autre graphe
+Sommet de depart: sortir
